@@ -1,11 +1,12 @@
 import React from 'react';
 import Sidenews from './Sidenews';
+import image from '../assets/images/image-web-3-desktop.jpg'
 
 function Hero() {
   return (
     <div className='flex flex-col sm:flex-row justify-between items-start px-16 py-8 gap-8 w-screen'>
       <div className="mainhero w-full flex flex-col sm:w-3/4">
-        <img className='h-80 w-full object-cover mb-6' src="src/assets/images/image-web-3-desktop.jpg" alt="Hero" />
+        <img className='h-80 w-full object-cover mb-6' src= {image} alt="Hero" />
         
         <div className="topic flex flex-col sm:flex-row justify-between gap-8">
           <h1 className='text-5xl font-bold text-black leading-tight w-full sm:w-3/5'>
