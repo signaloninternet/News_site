@@ -3,19 +3,19 @@ import React from 'react';
 const Cards = () => {
   const data = [
     {
-      img: './src/assets/images/image-retro-pcs.jpg',
+      img: '../assets/images/image-retro-pcs.jpg',
       number: '01',
       title: 'Reviving Retro PCs',
       text: 'What happens when the old PCs are given modern upgrades?',
     },
     {
-      img: './src/assets/images/image-top-laptops.jpg',
+      img: '../assets/images/image-top-laptops.jpg',
       number: '02',
       title: 'Innovating Top Laptops',
       text: 'What will be the future of gaming and workplace computers?',
     },
     {
-      img: './src/assets/images/image-gaming-growth.jpg',
+      img: '../assets/images/image-gaming-growth.jpg',
       number: '03',
       title: 'Gaming Growth and Innovation',
       text: 'What will be the impact of VR, AR, and AI on the gaming industry?',
