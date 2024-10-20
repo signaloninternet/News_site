@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri'; // Importing the close and menu icons
+import logo from '../assets/images/logo.svg'
 
 function Navbar() {
-  // State to toggle mobile menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Function to toggle the menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -14,7 +13,7 @@ function Navbar() {
     <div className="p-8 mx-8 flex flex-row justify-between items-center">
       {/* Logo */}
       <div className="logo">
-        <img src="src/assets/images/logo.svg" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
 
       {/* Desktop Menu */}
