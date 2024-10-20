@@ -1,21 +1,22 @@
 import React from 'react';
+import imageRetroPCs from '../assets/images/image-retro-pcs.jpg';
 
 const Cards = () => {
   const data = [
     {
-      img: '../assets/images/image-retro-pcs.jpg',
+      img: imageRetroPCs,
       number: '01',
       title: 'Reviving Retro PCs',
       text: 'What happens when the old PCs are given modern upgrades?',
     },
     {
-      img: '../assets/images/image-top-laptops.jpg',
+      img: 'src/assets/images/image-top-laptops.jpg',
       number: '02',
       title: 'Innovating Top Laptops',
       text: 'What will be the future of gaming and workplace computers?',
     },
     {
-      img: '../assets/images/image-gaming-growth.jpg',
+      img: 'src/assets/images/image-gaming-growth.jpg',
       number: '03',
       title: 'Gaming Growth and Innovation',
       text: 'What will be the impact of VR, AR, and AI on the gaming industry?',
